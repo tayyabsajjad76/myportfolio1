@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Fjalla+One&family=Itim&family=Oswald&family=PT+Sans+Narrow&family=Raleway:wght@400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root {
+  --first-color: #00eeff;;
+  --second-color: palevioletred;
+  --third-color:black;
+  --fourth-color:#1b9bff;
+  --fifth-color:rgb(8, 8, 8);
+  --sixth-color:#0400ff;
+  --seventh-color:#222222;
+  --eight-color:#838383;
+  --ninth-color:#8671FC;
+  --tenth-color:#F46C88;
+
+}
+body {
+    font-family: 'Raleway';
+}
+/* Home Section */
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    color: var(--first-color);
+    /* color: #00eeff; */
+    font-size: 35px;
+    line-height: 90px;
+    font-weight: bold;
+    padding: 0 42px;
+}
+span {
+    color: var(--second-color);
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    color:var(--third-color);
+}
+a.active,
+a:hover {
+    background: var(--fourth-color);
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 25px;
+    color: var(--fifth-color);
+    float: right;
+    line-height: 88px;
+    margin-right: 58px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.contact {
+    color: var(--sixth-color);
+}
+.second-main {
+    display: flex;
+    justify-content: space-around;
+}
+.left-main {
+    margin-top: 75px;
+}
+.intro {
+    margin-top: 82px;
+    margin-left: 44px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--seventh-color);
+}
+.name {
+    margin-left: 41px;
+    margin-top: 17px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    color:var(--seventh-color);
+}
+.name-text {
+    margin-left: 38px;
+    margin-top: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: var(--eight-color);
+}
+.button-hire button {
+    padding: 10px 20px;
+    border-radius: 28px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 34px;
+    background-color: #8671FC;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.download {
+    margin-top: -27px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 19px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #8671FC;
+    margin-left: 180px;
+}
+.right-main {
+    margin-top: 66px;
+    margin-left: 50px;
+    height: 320px;
+    width: 310px;
+    border-radius: 50%;
+    background: linear-gradient(222.84deg, #F46C88 9.78%, rgba(251, 165, 189, 0.2) 136.5%);
+}
+.right-main img {
+    border-radius: 50%;
+    width: 311px;
+    height: 325px;
+}
+/* About Section */
+.about-section {
+    background-color: #F46C88;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.us {
+    margin-left: 92px;
+    padding-top: 43px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.us-text {
+    margin-top: 46px;
+    margin-left: 84px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.after-us {
+    margin-left: 81px;
+    margin-top: 33px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.download-resume {
+    margin-top: 41px;
+    margin-left: 80px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.question {
+    margin-top: 140px;
+    margin-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.after-question {
+    margin-top: 37px;
+    margin-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.email {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+/* Skill Section */
+.skill {
+    margin-top: 80px;
+    margin-left: -2px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.offering {
+    margin-top: 6px;
+    margin-left: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #222222;
+}
+.skill-boxes {
+    display: flex;
+    justify-content: space-around;
+
+}
+.skill-1 {
+    background-color: #F05D7B;
+    margin-left: -10px;
+    height: 250px;
+}
+.fullstack {
+    margin-left: 35px;
+    padding-top: 28px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.after-fd {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.fs-button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.skill-2 {
+    margin-left: -10px;
+    height: 250px;
+}
+.flutter {
+    margin-left: 30px;
+    padding-top: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.after-bd {
+    margin-left: 31px;
+    margin-top: 11px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.f-button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.skill-3 {
+    margin-left: -10px;
+    height: 250px;
+}
+.ui-designer {
+    margin-left: 30px;
+    padding-top: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.after-ui {
+    margin-left: 31px;
+    margin-top: 11px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.ui-button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+/* Footer Section */
+.footer {
+    background: #F05D7B;
+    margin-top: 60px;
+}
+.first-part {
+    text-align: center;
+    color: white;
+}
+.footer-contact {
+    padding-top: 50px;
+    font-size: 29px;
+}
+.footer-text {
+    padding-top: 31px;
+    font-size: 32px;
+}
+.contact-button {
+    color: white;
+    padding: 11px 35px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    background: blue;
+    font-size: 20px;
+}
+.last-mail {
+    color: white;
+    margin-top: 110px;
+    font-size: 30px;
+    margin-left: 8px;
+}
+.Copyright {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+/* Responsive */
+@media (max-width:780px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+@media (max-width:500px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .second-main {
+        display: block;
+        flex-direction: column-reverse;
+    }
+/* About Section */
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+/* Skill Section */
+    .skill-boxes {
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+    .skill-1 {
+        margin-top: 40px;
+        /* padding-left: 72px; */
+    }
+    .skill-2 {
+        margin-top: 40px;
+        /* padding-left: 72px; */
+    }
+    .skill-3 {
+        margin-top: 40px;
+        /* padding-left: 72px; */
+    }
+    .last-mail {
+        text-align: center;
+    }
+};
